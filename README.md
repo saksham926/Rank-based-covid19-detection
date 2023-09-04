@@ -9,7 +9,7 @@ The "Lung Segmentation Models" folder contains 9 pre-trained segmentation models
 
 To develop the proposed architecture, first use notebook "segmentation_code_lung_segmentation_data.ipynb" for lung segmentation, followed by lung segmentation region ensemble using the "Segmentation_ensembling.ipynb" notebook. Use those segmented lung regions as input to the three classification models using the "Classification on segmented lung portions.py" code and save the predictions. Use these predicted values for the rank-based ensemble prediction using "Ensembling_results.ipynb". Once the output is identified as COVID-19, use "Segmentation_ensembling.ipynb" for the infection segmentation and severity assessment, followed by an ensemble of infected regions. 
 
-**Prerequisites:** \n
+**Prerequisites:** \
 numpy                        1.21.0
 tensorflow                   2.9.1
 keras                        2.9.0

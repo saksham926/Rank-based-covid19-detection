@@ -4,7 +4,7 @@ import os
 from tensorflow.compat.v1 import InteractiveSession
 import tensorflow as tf
 import cv2
-gpu=input("Which gpu number you would like to allocate:")
+gpu=input("Which gpu number you would like to allocate:") #TO SELECT GPU
 os.environ["CUDA_VISIBLE_DEVICES"]=gpu
 model_name=int(input("Which model you would like to train(TYPE THE NUMBER ONLY LIKE 1,2,3)? 1. Densenet 201    2. SE Inception v3   3. SE SQUEEZENET"))
 import glob

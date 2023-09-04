@@ -13,9 +13,9 @@ To develop the proposed architecture, first use notebook "segmentation_code_lung
 numpy                        1.21.0 \
 tensorflow                   2.9.1 \
 keras                        2.9.0 \
-opencv-python                54 \
+opencv-python                54 
 
-**Contribution:**
+**Contribution:** \
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 
